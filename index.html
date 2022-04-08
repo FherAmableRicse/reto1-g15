@@ -12,29 +12,61 @@
 <body class="body">
     <form class="form">
         <h1>Registro de Alumno</h1>
-        <label class="form-container__label" for="nombre">Nombres: </label>
-        <input class="form-container__input" id="nombre" type="text" placeholder="Ingresa tu Nombre"
-            required><br /><br />
-        <label class="form-container__label" for="apellido">Apellidos: </label>
-        <input class="form-container__input" id="apellido" type="text" placeholder="Ingresa tu Apellido"
-            required><br /><br />
-        <label class="form-container__label" for="edad">Edad: </label>
-        <input class="form-container__input" id="edad" type="number" placeholder="Ingresa tu Edad" required><br /><br />
-        <label class="form-container__label" for="dni">DNI: </label>
-        <input class="form-container__input" id="dni" type="number" placeholder="Ingresa tu DNI" required><br /><br />
-        <label class="form-container__label" for="sexo">Sexo: </label>
-        <input class="form-container__input" type="radio" checked name="gender">
-        <label class="form-container__label" for="hombre">Hombre</label>
-        <input class="form-container__input" type="radio" name="gender">
-        <label class="form-container__label" for="mujer">Mujer</label><br /><br />
-        <label class="form-container__label" for="html">HTML</label>
-        <input class="form-container__input" type="checkbox">
-        <label class="form-container__label" for="html">CSS</label>
-        <input class="form-container__input" type="checkbox">
-        <label class="form-container__label" for="html">JavaScript</label>
-        <input class="form-container__input" type="checkbox"><br /><br />
+        <input class="form__input" type="text" placeholder="Ingresa tu Nombre" required><br /><br />
+        <input class="form__input" type="text" placeholder="Ingresa tus Apellidos" required><br /><br />
+        <input class="form__input" type="number" placeholder="Ingresa tu Edad" required><br /><br />
+        <input class="form__input" type="number" placeholder="Ingresa tu DNI" required><br /><br />
+        <label class="form__label">Sexo: </label>
+        <input class="form__input" type="radio" checked name="gender">
+        <label class="form__label">Hombre</label>
+        <input class="form__input" type="radio" name="gender">
+        <label class="form__label">Mujer</label><br /><br />
+        <label class="form__label">Curso: </label>
+        <label class="form__label">HTML</label>
+        <input class="form__input" type="checkbox" checked>
+        <label class="form__label">CSS</label>
+        <input class="form__input" type="checkbox">
+        <label class="form__label">JavaScript</label>
+        <input class="form__input" type="checkbox"><br /><br />
         <button class="button">Registrar</button>
     </form>
+
+    <br />
+
+    <table class="table">
+        <caption class="table__title">Resumen de Registro</caption>
+        <tr class="table__tr">
+            <th class="table__th">Nombre</th>
+            <td class="table__td">Fher</td>
+        </tr>
+        <tr class="table__tr">
+            <th class="table__th">Apellidos</th>
+            <td class="table__td">Amable Ricse</td>
+        </tr>
+        <tr class="table__tr">
+            <th class="table__th">Edad</th>
+            <td class="table__td">23</td>
+        </tr>
+        <tr class="table__tr">
+            <th class="table__th">DNI</th>
+            <td class="table__td">66284553</td>
+        </tr>
+        <tr class="table__tr">
+            <th class="table__th">Sexo</th>
+            <td class="table__td">Hombre</td>
+        </tr>
+        <tr class="table__tr">
+            <th rowspan="3" class="table__th">Cursos</th>
+            <td class="table__td">HTML</td>
+        </tr>
+        <tr>
+            <td class="table__td">CSS</td>
+        </tr>
+        <tr>
+            <td class="table__td">JAVASCRIPT</td>
+        </tr>
+    </table>
+
 </body>
 
 </html>

@@ -1,38 +1,66 @@
 .body {
-    background-color: black;
     text-align: center;
     background-color: blue;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana,
+        sans-serif;
 }
 
 .form {
     border: 0.3rem solid black;
     background-color: white;
-    text-align: center;
     border-radius: 1.25rem;
     margin: 0 auto;
-    width: 20rem;
-    padding: 1.25rem;
+    max-width: 350px;
+    padding: 2em;
 }
-.form-container__input {
-    padding: 0.7rem;
-    margin: 0.3rem;
+.form__input {
+    padding: 0.7em;
+    margin-bottom: 0.2em;
     border: 0.18rem solid black;
     border-radius: 0.65rem;
 }
-.form-container__label {
+.form__label {
     color: darkblue;
     font-weight: bold;
     text-transform: uppercase;
 }
 .button {
     text-transform: uppercase;
-    background: orange;
-    width: 18rem;
-    margin: 1.5rem;
+    background: rgb(177, 117, 6);
+    width: 100%;
+    margin: 0;
     border: none;
-    padding: 0.9rem;
-    color: #ffffff;
-    font-size: 14px;
-    border-radius: 8px;
+    padding: 0.9em;
+    color: #fff;
+    font-size: 0.8rem;
     cursor: pointer;
+    border-radius: 0.65rem;
+    transition: all 0.25s;
+}
+.button:hover {
+    background: orange;
+}
+
+.table {
+    border-collapse: collapse;
+    background-color: rgba(255, 191, 0, 0.884);
+    margin: 0.12em;
+    text-transform: uppercase;
+    width: 98%;
+    border: 0.2rem solid black;
+}
+
+.table__title {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.table__td,
+.table__th {
+    border: 0.1rem solid blue;
+    text-align: center;
+    padding: 0.45rem;
+}
+.table__tr:nth-child(even) {
+    background-color: rgba(255, 191, 0, 0.884);
 }
