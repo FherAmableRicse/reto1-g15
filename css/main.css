@@ -1,0 +1,38 @@
+.body {
+    background-color: black;
+    text-align: center;
+    background-color: blue;
+}
+
+.form {
+    border: 0.3rem solid black;
+    background-color: white;
+    text-align: center;
+    border-radius: 1.25rem;
+    margin: 0 auto;
+    width: 20rem;
+    padding: 1.25rem;
+}
+.form-container__input {
+    padding: 0.7rem;
+    margin: 0.3rem;
+    border: 0.18rem solid black;
+    border-radius: 0.65rem;
+}
+.form-container__label {
+    color: darkblue;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.button {
+    text-transform: uppercase;
+    background: orange;
+    width: 18rem;
+    margin: 1.5rem;
+    border: none;
+    padding: 0.9rem;
+    color: #ffffff;
+    font-size: 14px;
+    border-radius: 8px;
+    cursor: pointer;
+}
