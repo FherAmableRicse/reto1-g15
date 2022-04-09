@@ -12,7 +12,7 @@
     font-size: 2em;
 }
 .form {
-    border: 0.3rem solid black;
+    border: 0.3rem solid #000;
     background-color: rgba(255, 255, 255, 0.2);
     border-radius: 1.25rem;
     margin: 0 auto;
@@ -22,9 +22,10 @@
 .form__input {
     padding: 0.7em;
     margin-bottom: 0.7rem;
-    border: 0.18rem solid black;
+    border: 0.18rem solid #000;
     border-radius: 0.65rem;
     width: 93%;
+    text-align: center;
 }
 .form__label {
     color: darkblue;
@@ -56,7 +57,7 @@
     text-transform: uppercase;
     width: 60%;
 
-    border: 0.2rem solid black;
+    border: 0.2rem solid #000;
 }
 
 .table__title {
@@ -78,4 +79,20 @@
 
 .table__tr:nth-child(even) {
     background-color: #002e7d;
+}
+.header-nav__list {
+    list-style: none;
+}
+.navbar__link {
+    font-size: 1.7rem;
+    font-weight: bold;
+    text-shadow: 0 0 0.25rem #ffd700;
+    color: #ffa43a;
+    text-decoration: none;
+    margin-left: 0;
+}
+.image {
+    text-align: center;
+    border: 2rem;
+    border: 0.3rem solid #000;
 }
