@@ -45,14 +45,17 @@
     border-collapse: collapse;
     background-color: rgba(255, 191, 0, 0.884);
     margin: 0.12em;
+    margin: 0 auto;
     text-transform: uppercase;
-    width: 98%;
+    width: 60%;
+
     border: 0.2rem solid black;
 }
 
 .table__title {
     color: #fff;
     font-size: 1.5rem;
+    margin-bottom: 0.6rem;
 }
 
 .table__td,
