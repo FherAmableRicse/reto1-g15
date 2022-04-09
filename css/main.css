@@ -1,13 +1,19 @@
 .body {
     text-align: center;
-    background-color: blue;
+    background-image: url(../img/fullstack.jpg);
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana,
         sans-serif;
+    background-size: cover;
+    background-position: center;
 }
-
+.form__h1 {
+    color: #fff;
+    font-weight: bold;
+    font-size: 2em;
+}
 .form {
     border: 0.3rem solid black;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.2);
     border-radius: 1.25rem;
     margin: 0 auto;
     max-width: 350px;
@@ -26,24 +32,24 @@
 }
 .button {
     text-transform: uppercase;
-    background: rgb(177, 117, 6);
+    background: #4a6bc5;
     width: 100%;
     margin: 0;
     border: none;
     padding: 0.9em;
-    color: #fff;
+    color: #e4fff9;
     font-size: 0.8rem;
     cursor: pointer;
     border-radius: 0.65rem;
     transition: all 0.25s;
 }
 .button:hover {
-    background: orange;
+    background: #002e7d;
 }
 
 .table {
     border-collapse: collapse;
-    background-color: rgba(255, 191, 0, 0.884);
+    background-color: #4a6bc5;
     margin: 0.12em;
     margin: 0 auto;
     text-transform: uppercase;
@@ -53,17 +59,21 @@
 }
 
 .table__title {
-    color: #fff;
+    color: #d2e2ff;
     font-size: 1.5rem;
     margin-bottom: 0.6rem;
 }
-
-.table__td,
 .table__th {
-    border: 0.1rem solid blue;
     text-align: center;
     padding: 0.45rem;
+    color: #000;
 }
+.table__td {
+    text-align: center;
+    padding: 0.45rem;
+    color: #d2e2ff;
+}
+
 .table__tr:nth-child(even) {
-    background-color: rgba(255, 191, 0, 0.884);
+    background-color: #002e7d;
 }
