@@ -17,18 +17,20 @@
     border-radius: 1.25rem;
     margin: 0 auto;
     max-width: 350px;
-    padding: 2em;
+    padding: 2.3em;
 }
 .form__input {
     padding: 0.7em;
-    margin-bottom: 0.2em;
+    margin-bottom: 0.7rem;
     border: 0.18rem solid black;
     border-radius: 0.65rem;
+    width: 93%;
 }
 .form__label {
     color: darkblue;
     font-weight: bold;
     text-transform: uppercase;
+    display: inline-block;
 }
 .button {
     text-transform: uppercase;
@@ -50,7 +52,6 @@
 .table {
     border-collapse: collapse;
     background-color: #4a6bc5;
-    margin: 0.12em;
     margin: 0 auto;
     text-transform: uppercase;
     width: 60%;
@@ -59,7 +60,8 @@
 }
 
 .table__title {
-    color: #d2e2ff;
+    margin-top: 2rem;
+    color: #fff;
     font-size: 1.5rem;
     margin-bottom: 0.6rem;
 }
